@@ -39,7 +39,7 @@
 	</div>
 
 	<div class="moodboard mb-8">
-		<img src="/moodboard.jpg" alt="Inspirationsbilder - färgglatt tema" />
+		<img src="/moodboard.png" alt="Inspirationsbilder - färgglatt tema" />
 	</div>
 
 	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
