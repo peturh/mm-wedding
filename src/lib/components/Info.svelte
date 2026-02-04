@@ -11,22 +11,22 @@
 <section>
 	<h2 id="info">Information</h2>
 
-	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
-		<div class="col-span-2 text-right">Tid & Plats</div>
-		<div class="col-span-4 mx-4">
+	<div class="info-item mb-8">
+		<div class="info-label">Tid & Plats</div>
+		<div class="info-content">
 			Vigseln äger rum kl. 14.00 på Helmers Lunds gård i Klagstorp. Därefter bjuder vi in till
 			mingel, middag med en vegetarisk meny och bröllopsfest på gården.
 		</div>
 	</div>
 
-	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
-		<div class="col-span-2 text-right">Klädkod</div>
-		<div class="col-span-4 mx-4">Kavaj</div>
+	<div class="info-item mb-8">
+		<div class="info-label">Klädkod</div>
+		<div class="info-content">Kavaj</div>
 	</div>
 
-	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
-		<div class="col-span-2 text-right">Tema</div>
-		<div class="col-span-4 mx-4">
+	<div class="info-item mb-8">
+		<div class="info-label">Tema</div>
+		<div class="info-content">
 			Färgglatt!
 			<br /><br />
 			Vi ser fram emot att ha en färgglad fest, och uppmuntrar er till att ha kul med färg, accessoarer,
@@ -42,14 +42,14 @@
 		<img src="/moodboard.png" alt="Inspirationsbilder - färgglatt tema" />
 	</div>
 
-	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
-		<div class="col-span-2 text-right">Barn</div>
-		<div class="col-span-4 mx-4">Vigseln och festen är barnfri, med undantag för ammande barn.</div>
+	<div class="info-item mb-8">
+		<div class="info-label">Barn</div>
+		<div class="info-content">Vigseln och festen är barnfri, med undantag för ammande barn.</div>
 	</div>
 
-	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
-		<div class="col-span-2 text-right">Present</div>
-		<div class="col-span-4 mx-4">
+	<div class="info-item mb-8">
+		<div class="info-label">Present</div>
+		<div class="info-content">
 			Er närvaro är gåva nog, men om ni vill ge oss någonting önskar vi oss ett bidrag till vår
 			bröllopsresa.
 			<br /><br />
@@ -57,26 +57,26 @@
 		</div>
 	</div>
 
-	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
-		<div class="col-span-2 text-right">Transport dit</div>
-		<div class="col-span-4 mx-4">
+	<div class="info-item mb-8">
+		<div class="info-label">Transport dit</div>
+		<div class="info-content">
 			Helmerslund gården ligger i Klagstorp ca 30 minuter ifrån Malmö. Enklast är att ta sig hit med
 			taxi eller bil. Samåk gärna, det finns gott om parkeringsmöjligheter vid gården.
 		</div>
 	</div>
 
-	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
-		<div class="col-span-2 text-right">Kollektivtrafik</div>
-		<div class="col-span-4 mx-4">
+	<div class="info-item mb-8">
+		<div class="info-label">Kollektivtrafik</div>
+		<div class="info-content">
 			Från Malmö C: Ta Pågatåg till Trelleborg C. Byt till regionbuss mot Klagstorp/Skegrie (linjer
 			kan variera, se Skånetrafikens reseplanerare). Närmaste hållplats ligger en kortare taxiresa
 			eller promenad från gården beroende på avgång.
 		</div>
 	</div>
 
-	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
-		<div class="col-span-2 text-right">Transport hem</div>
-		<div class="col-span-4 mx-4">
+	<div class="info-item mb-8">
+		<div class="info-label">Transport hem</div>
+		<div class="info-content">
 			Taxi Skåne, Taxi Skurup, Taxi Trelleborg och Bolt/Uber. Det kan vara en god idé att förboka
 			taxi.
 		</div>
@@ -121,6 +121,34 @@
 		}
 	}
 
-	@media screen and (max-width: 768px) {
+	.info-item {
+		display: grid;
+		grid-template-columns: 2fr 4fr;
+		gap: 0.25rem;
+	}
+
+	.info-label {
+		text-align: right;
+	}
+
+	.info-content {
+		margin-left: 1rem;
+	}
+
+	@media screen and (max-width: 500px) {
+		.info-item {
+			grid-template-columns: 1fr;
+			text-align: center;
+		}
+
+		.info-label {
+			text-align: center;
+			font-weight: 500;
+			text-decoration: underline;
+		}
+
+		.info-content {
+			margin-left: 0;
+		}
 	}
 </style>

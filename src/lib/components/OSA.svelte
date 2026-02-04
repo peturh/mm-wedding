@@ -3,8 +3,11 @@
 
 	import { enhance } from '$app/forms';
 	import dayjs from 'dayjs';
+	import 'dayjs/locale/sv';
 	import type { ActionData } from '../../routes/$types';
 	export let form: ActionData;
+
+	dayjs.locale('sv');
 
 	// RSVP deadline - set to null to keep form open, or use format 'YYYY-MM-DD'
 	const RSVP_DEADLINE: string | null = '2026-06-01';
@@ -128,12 +131,22 @@
 	}
 	.send-response {
 		width: 100%;
-		border: 1px solid black;
+		background-color: #f9601c;
+		color: white;
+		border: none;
 		border-radius: 6px;
-		padding: 10px;
-		box-shadow: 1px 1px 1px black;
+		padding: 12px;
+		font-weight: 700;
+		font-size: 16px;
+		cursor: pointer;
+		transition: opacity 0.2s ease;
+
 		&:hover {
-			box-shadow: none;
+			opacity: 0.9;
+		}
+
+		&:active {
+			opacity: 0.8;
 		}
 	}
 </style>
