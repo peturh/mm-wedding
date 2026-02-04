@@ -7,32 +7,28 @@
 	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
 		<div class="col-span-2 text-right">Toastmasters</div>
 		<div class="col-span-4 mx-4">
-			Freja Forsström, <a href="tel:0739748924">0739-748924</a>,
-			<a class="email" href="mailto:freja.forsstrom@gmail.com">✉️</a>
+			Ylva Knaevelsrud, <a href="tel:0700684764">070-068 47 64</a>,
+			<a class="email" href="mailto:Ylva.knaevelsrud@hotmail.com">✉️</a>
 
 			<br />
-			Lotta Jansson, <a href="tel:0734306421">0734-306421</a>,
-			<a class="email" href="mailto:lottaajansson@hotmail.com">✉️</a>
+			Maria Malmqvist,
+			<a class="email" href="mailto:mariamalmqvist@gmail.com">✉️</a>
 
 			<div class="col-span-4 row-span-2 mt-4">
-				Det är till Freja och Lotta ni hör av er om ni önskar hålla tal, sjunga något eller liknande
-				på bröllopsfesten.
+				Hör av er till Ylva och Maria om ni vill hålla tal, framföra en sång eller ordna något annat
+				under middagen.
 			</div>
 		</div>
 	</div>
 
 	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
-		<div class="col-span-2 text-right">Brud</div>
+		<div class="col-span-2 text-right">Brudpar</div>
 		<div class="col-span-4 mx-4">
-			Louise Lundmark, <a href="tel:0703338952">0703-338952</a>,
-			<a class="email" href="mailto:evalouiselundmark@gmail.com">✉️</a>
-		</div>
-	</div>
-	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
-		<div class="col-span-2 text-right">Brudgum</div>
-		<div class="col-span-4 mx-4">
-			Teodor Wester, <a href="tel:0708927080">0708-927080</a>,
-			<a class="email" href="mailto:teodor.wester@gmail.com">✉️</a>
+			Mikaela, <a href="tel:0730883883">073-088 38 83</a>,
+			<a class="email" href="mailto:mikaelawwww@hotmail.com">✉️</a>
+			<br />
+			Mirell, <a href="tel:0707690078">070-769 00 78</a>,
+			<a class="email" href="mailto:mirellae@live.se">✉️</a>
 		</div>
 	</div>
 </section>

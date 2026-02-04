@@ -8,9 +8,11 @@
 <style lang="less">
 	section {
 		margin: 2rem auto;
+		text-align: center;
 	}
 	img {
-		width: 100%;
-		aspect-ratio: auto 536 / 58;
+		max-width: 50%;
+		height: auto;
+		display: inline-block;
 	}
 </style>

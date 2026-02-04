@@ -7,7 +7,7 @@
 	export let form: ActionData;
 
 	// RSVP deadline - set to null to keep form open, or use format 'YYYY-MM-DD'
-	const RSVP_DEADLINE: string | null = '2026-03-01';
+	const RSVP_DEADLINE: string | null = '2026-06-01';
 
 	const deadline = RSVP_DEADLINE ? dayjs(RSVP_DEADLINE) : null;
 	// Form stays open until the end of the deadline day (closes when the next day begins)
@@ -62,10 +62,10 @@
 			</div>
 
 			<div class="mb-4">
-				<label for="foodPreference">Allergier eller matpreferenser</label>
+				<label for="foodPreference">Allergier (vi kommer servera en vegetarisk meny)</label>
 				<input
 					id="foodPreference"
-					placeholder="Allergier eller matpreferenser"
+					placeholder="Allergier"
 					name="foodPreference"
 					type="text"
 					value={form?.foodPreference ?? ''}
@@ -75,7 +75,7 @@
 				<label for="other">Övrigt</label>
 				<input
 					id="other"
-					placeholder="T.ex. barn eller annat vi behöver veta"
+					placeholder="Annat vi behöver veta"
 					name="other"
 					type="text"
 					value={form?.other ?? ''}
@@ -101,13 +101,13 @@
 			{/if}
 		</form>
 		<p>
-			Om Ni redan anmält er men får förhinder kontakta Louise eller Teodor via telefon eller SMS
+			Om Ni redan anmält er men får förhinder kontakta Mikaela eller Mirell via telefon eller SMS
 		</p>
 	</section>
 {:else}
 	<section>
 		<p>Ni kan tyvärr inte längre anmäla er.</p>
-		<p>Om Ni får förhinder kontakta Louise eller Teodor via telefon eller SMS</p>
+		<p>Om Ni får förhinder kontakta Mikaela eller Mirell via telefon eller SMS</p>
 	</section>
 {/if}
 

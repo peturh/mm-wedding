@@ -5,26 +5,19 @@
 	const CONFIGURATION = {
 		locations: [
 			{
-				title: 'Grand Circus Hotel',
-				address1: 'Södra Bulltoftavägen 51',
-				address2: '212 22 Malmö, Sweden',
-				coords: { lat: 55.60380649113203, lng: 13.0444779932541 },
-				placeId: 'ChIJ-0AV9OKnU0YRiauSpv2kOOc'
-			},
-			{
-				title: 'Kirseberg Church',
-				address1: 'Vattenverksvägen 25',
-				address2: '212 21 Malmö, Sweden',
-				coords: { lat: 55.60899492129406, lng: 13.041444622090168 },
-				placeId: 'ChIJqe_7r9qjU0YRVqk1cos4GQc'
+				title: 'Helmers Lunds gård',
+				address1: 'Östra Torps Byaväg 274',
+				address2: '231 99 Klagstorp, Sweden',
+				coords: { lat: 55.3920, lng: 13.3650 },
+				placeId: ''
 			}
 		],
 		mapOptions: {
-			center: { lat: 38.0, lng: -100.0 },
+			center: { lat: 55.3920, lng: 13.3650 },
 			fullscreenControl: true,
 			mapTypeControl: false,
 			streetViewControl: false,
-			zoom: 4,
+			zoom: 12,
 			zoomControl: true,
 			maxZoom: 17,
 			mapId: ''
@@ -59,6 +52,7 @@
 
 <section>
 	<h2 id="karta">Hitta hit</h2>
+	<p class="mb-4">Östra Torps Byaväg 274, 231 99 Klagstorp</p>
 	<div id="map-wrapper" class="map-wrapper">
 		<gmpx-api-loader
 			key={PUBLIC_GOOGLE_MAPS_API_KEY}

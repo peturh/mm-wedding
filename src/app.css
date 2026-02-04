@@ -11,8 +11,11 @@ body {
     scroll-behavior: smooth;
     text-rendering: auto;
     font-smooth: auto;
-    color: #00592E;
+    color: #FFFEF5;
     background-color: #fffff0;
+    background-image: url('/bakgrund.png');
+    background-repeat: repeat;
+    background-size: auto;
     letter-spacing: 1px;
     line-height: 1.5;
     /* @apply font-medium */
@@ -29,9 +32,10 @@ p {
 }
 
 h1 {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Young Serif', serif;
     text-align: center;
     font-weight: 400;
+    color: #F9601C;
 }
 
 
@@ -39,11 +43,12 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Young Serif', serif;
     text-align: center;
     font-weight: 400;
-    font-style: italic;
+    font-style: normal;
     letter-spacing: 0;
+    color: #F9601C;
 }
 
 
@@ -94,6 +99,17 @@ h2 {
 
     section {
         padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html,
+    body {
+        background-color: #FEA0AE;
+        background-image: url('/mm-mobil-bakgrund.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center top;
     }
 }
 
