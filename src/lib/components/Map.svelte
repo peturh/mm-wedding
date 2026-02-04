@@ -5,15 +5,15 @@
 	const CONFIGURATION = {
 		locations: [
 			{
-				title: 'Helmers Lunds gård',
+				title: 'Helmerslunds gård',
 				address1: 'Östra Torps Byaväg 274',
 				address2: '231 99 Klagstorp, Sweden',
-				coords: { lat: 55.3920, lng: 13.3650 },
-				placeId: ''
+				coords: { lat: 55.362174, lng: 13.3562407 },
+				placeId: 'ChIJW_fn3Md7U0YRU7m-nIS9D4o'
 			}
 		],
 		mapOptions: {
-			center: { lat: 55.3920, lng: 13.3650 },
+			center: { lat: 55.392, lng: 13.365 },
 			fullscreenControl: true,
 			mapTypeControl: false,
 			streetViewControl: false,

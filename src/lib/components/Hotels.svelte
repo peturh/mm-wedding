@@ -12,7 +12,7 @@
 
 	<div class="hotel-item mb-8">
 		<div class="hotel-name">Smygehuks havsbad hotell</div>
-		<div class="hotel-desc">Ca 2,5 km från Helmerslund gård</div>
+		<div class="hotel-desc">Ca 2,5 km från Helmerslunds gård</div>
 	</div>
 
 	<div class="hotel-item mb-8">

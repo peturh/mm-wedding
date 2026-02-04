@@ -14,8 +14,8 @@
 	<div class="info-item mb-8">
 		<div class="info-label">Tid & Plats</div>
 		<div class="info-content">
-			Vigseln äger rum kl. 14.00 på Helmerslund gård i Klagstorp. Därefter bjuder vi in till mingel,
-			middag med en vegetarisk meny och bröllopsfest på gården.
+			Vigseln äger rum kl. 14.00 på Helmerslunds gård i Klagstorp. Därefter bjuder vi in till
+			mingel, middag med en vegetarisk meny och bröllopsfest på gården.
 		</div>
 	</div>
 
