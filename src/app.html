@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preload" as="style"
+		href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=block">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=block"
+		rel="stylesheet">
+	<meta charset="utf-8" />
+	<meta name="description" content="Detta är Louise & Teodors hemsida för deras bröllop den Första Augusti 2026">
+	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+	<meta name="viewport" content="width=device-width" />
+	%sveltekit.head%
+	<title>Louise och Teodors bröllop | Första Augusti 2026</title>
+	<style>
+		html {
+			visibility: hidden;
+		}
+
+		html.fonts-loaded {
+			visibility: visible;
+		}
+	</style>
+	<script>
+		if (document.fonts && document.fonts.ready) {
+			document.fonts.ready.then(() => {
+				document.documentElement.classList.add('fonts-loaded');
+			});
+		} else {
+			document.documentElement.classList.add('fonts-loaded');
+		}
+	</script>
+</head>
+
+<body data-sveltekit-preload-data="hover">
+
+	<!-- <div class="flower-wrapper bot">
+		<img class="flower-image bot" alt="flower decoration" width="321" heigth="455"
+			src="%sveltekit.assets%/flower-bottom.png">
+	</div> -->
+	<div style="display: contents">%sveltekit.body%</div>
+</body>
+
+</html>

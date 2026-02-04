@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    scroll-behavior: smooth;
+    text-rendering: auto;
+    font-smooth: auto;
+    color: #00592E;
+    background-color: #fffff0;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    /* @apply font-medium */
+}
+
+section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 18px;
+    margin: 1rem auto;
+}
+
+h1 {
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0;
+}
+
+
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 1rem;
+}
+
+.flower-wrapper {
+    position: fixed;
+
+    &.bot {
+        bottom: 0;
+        left: 0;
+    }
+
+    &.top {
+        top: 0;
+        right: 1rem;
+    }
+}
+
+.flower-image {
+
+
+    &.bot {
+        height: 455px;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+    .flower-wrapper {
+        z-index: -1;
+        opacity: 0.3;
+
+
+        .flower-image {
+            height: 300px;
+        }
+    }
+
+    section {
+        padding: 0 2rem;
+    }
+}
+
+.info-title {
+    font-size: 24px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+/* a {
+    font-weight: 700;
+    color: rgb(48, 48, 48);
+    font-style: italic;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &:visited {
+        color: rgb(48, 48, 48);
+    }
+} */
+
+a {
+    @apply text-black hover:text-gray-500 underline visited:text-black
+}
+
+input[type=text], input[type=email], input[type=password] {
+    @apply shadow appearance-none border rounded w-full py-2 px-3 text-black leading-tight
+}
+
+label {
+    @apply block text-sm mb-2 font-medium
+}
+
+.grid {
+    font-size: 16px;
+}
