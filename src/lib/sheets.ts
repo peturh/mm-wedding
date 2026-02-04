@@ -25,7 +25,7 @@ export async function addGuest(guest: GuestData): Promise<void> {
     await sheets.spreadsheets.values.append({
         spreadsheetId: env.GOOGLE_SHEET_ID,
         range: 'Sheet1!A:F',
-        valueInputOption: 'USER_ENTERED',
+        valueInputOption: 'RAW',
         requestBody: {
             values: [[timestamp, guest.name, guest.phoneNumber, guest.email, guest.foodPreference, guest.other]]
         }
