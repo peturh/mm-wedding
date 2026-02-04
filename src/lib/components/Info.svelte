@@ -38,15 +38,13 @@
 		</div>
 	</div>
 
-	<div class="inspiration-placeholder mb-8">
-		<p class="text-center italic text-gray-500">[Inspirationsbilder kommer här]</p>
+	<div class="moodboard mb-8">
+		<img src="/moodboard.jpg" alt="Inspirationsbilder - färgglatt tema" />
 	</div>
 
 	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
 		<div class="col-span-2 text-right">Barn</div>
-		<div class="col-span-4 mx-4">
-			Vigseln och festen är barnfri, med undantag för ammande barn.
-		</div>
+		<div class="col-span-4 mx-4">Vigseln och festen är barnfri, med undantag för ammande barn.</div>
 	</div>
 
 	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
@@ -62,8 +60,8 @@
 	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
 		<div class="col-span-2 text-right">Transport dit</div>
 		<div class="col-span-4 mx-4">
-			Helmerslund gården ligger i Klagstorp ca 30 minuter ifrån Malmö. Enklast är att ta sig hit
-			med taxi eller bil. Samåk gärna, det finns gott om parkeringsmöjligheter vid gården.
+			Helmerslund gården ligger i Klagstorp ca 30 minuter ifrån Malmö. Enklast är att ta sig hit med
+			taxi eller bil. Samåk gärna, det finns gott om parkeringsmöjligheter vid gården.
 		</div>
 	</div>
 
@@ -99,7 +97,7 @@
 		margin: 1rem auto;
 		letter-spacing: 0;
 		text-align: center;
-		color: #F9601C;
+		color: #f9601c;
 	}
 
 	.ampersand {
@@ -114,9 +112,15 @@
 		margin: 0 auto;
 		font-weight: 400;
 	}
-	.inspiration-placeholder {
-		border: 2px dashed #ccc;
-		padding: 2rem;
-		border-radius: 8px;
+	.moodboard {
+		text-align: center;
+
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	@media screen and (max-width: 768px) {
 	}
 </style>

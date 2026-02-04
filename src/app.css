@@ -2,7 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
+html {
+    background-color: #FEA0AE;
+    background-image: url('/bakgrund.png');
+    background-repeat: repeat-y;
+    background-position: center top;
+}
+
 body {
     max-width: 1200px;
     margin: 0 auto;
@@ -12,13 +18,8 @@ body {
     text-rendering: auto;
     font-smooth: auto;
     color: #FFFEF5;
-    background-color: #fffff0;
-    background-image: url('/bakgrund.png');
-    background-repeat: repeat;
-    background-size: auto;
     letter-spacing: 1px;
     line-height: 1.5;
-    /* @apply font-medium */
 }
 
 section {
@@ -102,13 +103,11 @@ h2 {
     }
 }
 
-@media screen and (max-width: 768px) {
-    html,
-    body {
+@media screen and (max-width: 900px) {
+    html {
         background-color: #FEA0AE;
         background-image: url('/mm-mobil-bakgrund.png');
-        background-size: contain;
-        background-repeat: no-repeat;
+        background-repeat: repeat-y;
         background-position: center top;
     }
 }
